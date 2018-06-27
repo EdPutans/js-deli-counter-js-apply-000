@@ -1,14 +1,12 @@
 
 //The function, takeANumber, should accept the current line of people, katzDeliLine, along with the new person's name as parameters. The function should return their position in line.//
-
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name)
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
+var number=1
+function takeANumber(katzDeliLine) {
+  katzDeliLine.push(number)
+  return `Welcome, guest. You are number ${katzDeliLine.length} in line.`
+  number++
 }
   
-
-
-
 
 //This function should return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
 
