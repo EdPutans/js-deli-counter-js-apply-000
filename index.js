@@ -1,7 +1,7 @@
 
 //The function, takeANumber, should accept the current line of people, katzDeliLine, along with the new person's name as parameters. The function should return their position in line.//
 
-takeANumber = function(katzDeliLine, name) {
+function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`}
 /*.length works since the last person in array is the new one*/}
