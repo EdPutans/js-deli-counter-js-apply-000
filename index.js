@@ -27,7 +27,7 @@ takeANumber = function(katzDeliLine, name){
       for (let i=0; i<line.length; i++)      
        linePeeps.push(` ${i+1}. ${line[i]}`)
        //i+1 - customer position, line - name
-        return (`The line is currently:` + linePeeps.join(', '))}
+        return (`The line is currently:` + linePeeps.join(','))}
         
     if (line.length===0){
        return('The line is currently empty.')
